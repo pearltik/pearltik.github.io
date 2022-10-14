@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+@font-face {
+    font-family: "fbrand";
+    src: url("../fonts/pacifico.ttf");
+}
+
+@font-face {
+    font-family: "fbody";
+    src: url("../fonts/satisfy.ttf");
+}
+
+html {
+    font-family: fbody;
+    scroll-behavior: smooth;
+    color: black;
+    user-select: none;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    font-size: x-large;
+}
+
+.sec-home {
+    background: url("../images/bg-ring.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #aaaaaa88;
+}
+
+.sec-designs {
+    background: white;
+}
+
+.sec-contact {
+    background: gold;
+}
+
+.brand {
+    display: inline-block;
+    padding: 1em .5em;
+    font-family: fbrand;
+    font-size: xx-large;
+}
+
+.about {
+    display: block;
+    width: 10em;
+    height: 75vh;
+    margin-left: 1em;
+}
+
+.next {
+    color: black;
+    text-decoration: none;
+    margin: 1em;
+    font-family: sans;
+    font-size: 0.9em;
+    border-radius: 1em;
+    background: gold;
+    padding: .4em .8em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 .5em;
+}
+
+.extra {
+    opacity: .4;
+    font-family: sans;
+    font-style: italic;
+}
+
+#dtype {
+    font-size: xx-large;
+}
+
+.siema {
+    text-align: center;
+}
+
+.siema img {
+    object-fit: scale-down;
+    max-width: 100%;
+    height: 75vh;
+}
+
+.details {
+    display: block;
+    height: 75vh;
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.details b {
+    display: inline-block;
+    min-width: 5em;
+    text-align: right;
+}

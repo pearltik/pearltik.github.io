@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Pratik, Pratik Pankhaniya, Jewellery Designer, Matrix, MatrixGold, Rhino, CAD">
+    <meta name="author" content="Pratik Pankhaniya">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Pratik Designs</title>
+</head>
+
+<body>
+
+    <section class="sec-home" id="home">
+        <span class="brand">☮ Pratik Prajapati</span>
+        <span class="about">
+            <br><br>
+            A Jewellery Designer with eye for aesthetically pleasing designs and 2 Yrs of experience. Familiar with
+            various market standard software like Matrix, Rhino etc.
+        </span>
+
+        <a href="#designs" class="next">See ꃼ Designs</a>
+
+    </section>
+
+    <section class="sec-designs" id="designs">
+        <span class="brand">ꃼ Designs &nbsp; ~</span>
+        <span id="dtype">Bracelet</span>
+        <div class="siema">
+
+            <img src="images/bracelet-1.jpg" alt="">
+            <img src="images/necklace-1.jpg" alt="">
+            <img src="images/pendent-1.jpg" alt="">
+            <img src="images/pendent-2.jpg" alt="">
+            <img src="images/pendent-3.jpg" alt="">
+            <img src="images/pendent-4.jpg" alt="">
+            <img src="images/ring-1.jpg" alt="">
+            <img src="images/ring-2.jpg" alt="">
+            <img src="images/ring-3.jpg" alt="">
+            <img src="images/ring-4.jpg" alt="">
+            <img src="images/ring-5.jpg" alt="">
+        </div>
+        <a href="#contact" class="next">Contact ✆ Me</a>
+        <span class="extra">for 200+ Readymade Designs</span>
+    </section>
+
+    <section class="sec-contact" id="contact">
+        <span class="brand">✆ Contact</span>
+
+        <div class="details">
+            <br><br><br>
+
+            <b>Email</b> &nbsp; / &nbsp;
+            <a href="mailto:pratikppp658@gmail.com" target="_blank">pratikppp658@gmail.com</a>
+            <br><br>
+
+            <b>Social Media</b> &nbsp; / &nbsp;
+            <a href="https://www.instagram.com/pratik007prajapati" target="_blank">Instagram</a>
+            <br><br>
+
+            <b></b> &nbsp; / &nbsp;
+            <a href="https://www.facebook.com/people/Pankhaniya-Pratik/100008463574914/" target="_blank">Facebook</a>
+            <br><br>
+
+
+        </div>
+
+        <a href="#home" class="next" style="background: white;">To ↑ Top</a>
+        <span class="extra">site by <a href="https://sandeepbhutiya.github.io" target="_blank">Sandeep</a></span>
+    </section>
+
+    <script src="js/siema.min.js"></script>
+    <script>
+        const siema = new Siema({ loop: true });
+        const designs = ["Bracelet", "Necklace", "Pendent", "Pendent", "Pendent", "Pendent", "Ring", "Ring", "Ring", "Ring", "Ring"]
+
+        function next() {
+            siema.next()
+            document.getElementById("dtype").textContent = designs[siema.currentSlide]
+        }
+
+        setInterval(next, 3000)
+    </script>
+
+</body>
+
+</html>
