@@ -61,7 +61,7 @@ section {
 .about {
     display: block;
     width: 10em;
-    height: 75vh;
+    height: 70vh;
     margin-left: 1em;
 }
 
@@ -78,9 +78,13 @@ section {
 }
 
 .extra {
+    display:block;
     opacity: .4;
     font-family: sans;
     font-style: italic;
+    margin-left:1.5em;
+    margin-top:.5em;
+    font-size:large;
 }
 
 #dtype {
@@ -94,22 +98,16 @@ section {
 .siema img {
     object-fit: scale-down;
     max-width: 100%;
-    height: 75vh;
+    height: 70vh;
 }
 
 .details {
     display: block;
-    height: 75vh;
+    height: 70vh;
     margin-left: 1em;
 }
 
 a {
     text-decoration: none;
     color: blueviolet;
-}
-
-.details b {
-    display: inline-block;
-    min-width: 5em;
-    text-align: right;
 }
